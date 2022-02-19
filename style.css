@@ -298,8 +298,88 @@ footer{
     
 }
 
-/*------------------------- styles for mini mobile page---------------------- */
-/*----------------------------------------- end style for home page-------------------------------------- */
+/*------------------------- styles for pad  page---------------------- */
+@media only screen and (min-width: 668px) and (max-width:992px){
+
+body{
+    /* background-color: #E02C6D; */
+}
+.home-page{
+    padding: 20px;
+    padding-bottom: 40px;
+    
+  }
+  a.link{
+      width: 100px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #E02C6D;
+    padding: 8px 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+/*-------- home page-------- */
+h1.logo-tytle{
+    font-family: Poppins;
+    font-size: 44px;
+    color: white;
+    font-weight: 700;
+}
+
+
+  /*---------------------- for player-section-------------------- */
+  .player-section{
+    padding:30px;
+
+}
+  .players{
+    margin: 15px;
+    display: grid ;
+    grid-template-columns: auto auto;
+    grid-gap:30px 30px;
+}
+/* ---------------last section -------------*/
+
+.last-section{
+    margin:30px;
+    padding: 10px;
+}
+h1.last-headding{
+    font-size: 50px;
+    line-height: 60px;  
+    font-weight: 700;
+}
+.last-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last-part > div{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.last-part p{
+    max-width: 700px;
+    margin: 0px 0;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+
+
+
+
+}
+
+
+/*----------------------------------------- end style for i pad media quary page-------------------------------------- */
 /*------------------------- styles for mini mobile page---------------------- */
 
 
