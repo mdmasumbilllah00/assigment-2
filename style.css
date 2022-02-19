@@ -140,7 +140,7 @@ line-height: 26px;
 .last-part > div{
     width: 50%;
 }
-.last-headding{
+h1.last-headding{
     font-size: 58px;
     line-height: 60px;  
     font-weight: 700;
@@ -204,6 +204,7 @@ footer,.footer-social,.footer-coppy-write{
   }
   .home-page{
     padding: 16px;
+    padding-bottom: 40px;
     
   }
   .link-section{
@@ -233,9 +234,6 @@ footer,.footer-social,.footer-coppy-write{
       display: none;
 
   }
-.player-section,.last-section,footer{
-      display: none;
-  }
 
   /* ---------------------for home page-------------- */
   h1.logo-tytle{
@@ -254,6 +252,49 @@ footer,.footer-social,.footer-coppy-write{
       margin-top: 100px;
   }
 
+
+  /*---------------------- for player-section-------------------- */
+  .player-section{
+    padding:15px;
+
+}
+  .players{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:30px 30px;
+
+}
+
+/* ---------------last section -------------*/
+
+.last-section{
+    margin:15px;
+    padding: 10px;
+}
+h1.last-headding{
+    font-size: 40px;
+    line-height: 60px;  
+    font-weight: 700;
+}
+.last-part{
+    display: flex;
+    flex-direction: column;
+}
+.last-part > div{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/*------- footer-----  */
+
+footer{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
     
 }
 
@@ -267,3 +308,19 @@ footer,.footer-social,.footer-coppy-write{
 
 
 /*----------------------------------------- end style for home page-------------------------------------- */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
